@@ -1,9 +1,9 @@
 // Replace YOUR_CLIENT_ID and YOUR_API_KEY with your own values
-var clientId = "YOUR_CLIENT_ID";
+var clientId = "420794664142-bqpqhd4u9qomdnlsvfc5sfpr313sp9h8.apps.googleusercontent.com";
 var apiKey = "AIzaSyANorXi76ZJy03GVTulOhDilgqqou_CXFI";
 
 // Replace YOUR_SPREADSHEET_ID with the ID of your Google Sheet
-var spreadsheetId = "YOUR_SPREADSHEET_ID";
+var spreadsheetId = "1XK3z9T-Buat-tcixSfo6Owi52rE5veqHfy0cD7D6NqY";
 
 // Load the Google Sheets API
 var discoveryDocs = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
