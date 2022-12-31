@@ -10,5 +10,6 @@
   "browser_action": {
     "default_title": "Time Tracker",
     "default_popup": "popup.html"
-  }
+  },
+  "id": "abcdefghijklmnopqrstuvwxyz"  // This is the extension's ID
 }
