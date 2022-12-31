@@ -2,6 +2,16 @@
 var clientId = "420794664142-bqpqhd4u9qomdnlsvfc5sfpr313sp9h8.apps.googleusercontent.com";
 var apiKey = "AIzaSyANorXi76ZJy03GVTulOhDilgqqou_CXFI";
 
+var discoveryDocs = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
+gapi.load("client:auth2", function() {
+  gapi.client.init({
+    apiKey: apiKey,
+    clientId: clientId,
+    discoveryDocs: discoveryDocs,
+    scope: "https://www.googleapis.com/auth/spreadsheets"
+  });
+});
+
 // Replace YOUR_SPREADSHEET_ID with the ID of your Google Sheet
 var spreadsheetId = "1XK3z9T-Buat-tcixSfo6Owi52rE5veqHfy0cD7D6NqY";
 
